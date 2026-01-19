@@ -49,8 +49,8 @@ HTML | CSS | Git | VS Code | GitHub
 
 ## 📫 Contact
 
-📧 Email: [your.email@gmail.com](mailto:your.email@gmail.com)
-💼 LinkedIn: [https://linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+📧 Email: [dikshantneupane690@gmail.com](mailto:your.email@gmail.com)
+💼 LinkedIn: [https://www.linkedin.com/in/dikshant-neupane-a64b09326/](https://linkedin.com/in/your-profile)
 
 ---
 

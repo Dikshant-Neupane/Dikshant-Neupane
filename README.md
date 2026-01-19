@@ -1,6 +1,6 @@
 # Dikshant Neupane
 
-BSc CSIT Student | Aspiring Software Developer
+BSc CSIT Student 
 
 ---
 
@@ -22,11 +22,7 @@ HTML | CSS | Git | GitHub | VS Code
 
 ---
 
-## Projects
 
-[![Recent Repos](https://github-readme-recent-repos.vercel.app?username=Dikshant-Neupane\&count=5\&theme=radical)](https://github.com/Dikshant-Neupane?tab=repositories)
-
----
 
 ## GitHub Statistics
 

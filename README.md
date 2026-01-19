@@ -38,11 +38,19 @@ HTML | CSS | Git | GitHub | VS Code
 
 ## GitHub Statistics
 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Dikshant-Neupane\&show_icons=true\&theme=radical)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Dikshant-Neupane\&theme=radical)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Dikshant-Neupane\&layout=compact\&theme=radical)
+
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=Dikshant-Neupane\&theme=dracula)
+
 ---
 
 ## Contact
 
-Email: [dikshantneupane@gmail.com](mailto:dikshantneupane@gmail.com)  
+Email: [dikshantneupane@gmail.com](mailto:dikshantneupane@gmail.com)
 
 LinkedIn: [https://linkedin.com/in/dikshant-neupane](https://linkedin.com/in/dikshant-neupane)
 

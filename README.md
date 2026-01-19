@@ -24,15 +24,7 @@ HTML | CSS | Git | GitHub | VS Code
 
 ## Projects
 
-* **Project 1**
-  Brief description of the problem this project solves and the technologies used.
-  Repository: [https://github.com/Dikshant-Neupane/project-name](https://github.com/Dikshant-Neupane/project-name)
-
-* **Project 2**
-  Brief description of the problem this project solves and the technologies used.
-  Repository: [https://github.com/Dikshant-Neupane/project-name](https://github.com/Dikshant-Neupane/project-name)
-
-(Add your real projects with meaningful descriptions)
+[![Recent Repos](https://github-readme-recent-repos.vercel.app?username=Dikshant-Neupane\&count=5\&theme=radical)](https://github.com/Dikshant-Neupane?tab=repositories)
 
 ---
 

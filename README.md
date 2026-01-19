@@ -40,7 +40,7 @@ HTML | CSS | Git | GitHub | VS Code
 
 Email: [dikshantneupane@gmail.com](mailto:dikshantneupane@gmail.com)
 
-LinkedIn: [https://linkedin.com/in/dikshant-neupane](https://linkedin.com/in/dikshant-neupane)
+LinkedIn: [[https://linkedin.com/in/dikshant-neupane](https://www.linkedin.com/in/dikshant-neupane-a64b09326/)]
 
 ---
 

@@ -1,57 +1,51 @@
-# 👋 Hi, I’m Dikshant Neupane
+# Dikshant Neupane
 
-🎓 **BSc CSIT Student**
-💻 Aspiring Software Developer
-🚀 Passionate about coding and building useful projects
+BSc CSIT Student | Aspiring Software Developer
 
 ---
 
-## 🧠 About Me
+## About Me
 
 I am currently pursuing my Bachelor's degree in **BSc CSIT** from Tribhuvan University.
-I enjoy learning new technologies and improving my problem-solving skills through real projects.
+I am passionate about software development and continuously improving my technical skills through hands-on projects.
+My primary interests include building efficient, scalable, and well-structured applications.
 
 ---
 
-## 💻 Skills
+## Skills
 
-**Languages:**
-Python | JavaScript | C++
+**Programming Languages**
+C++ | Python | JavaScript
 
-**Tools & Technologies:**
-HTML | CSS | Git | VS Code | GitHub
-
----
-
-## 🚀 Projects
-
-* **Project 1** – Short description
-  🔗 [https://github.com/Dikshant-Neupane/project-name](https://github.com/Dikshant-Neupane/project-name)
-
-* **Project 2** – Short description
-  🔗 [https://github.com/Dikshant-Neupane/project-name](https://github.com/Dikshant-Neupane/project-name)
-
-*(Replace with your real projects)*
+**Tools and Technologies**
+HTML | CSS | Git | GitHub | VS Code
 
 ---
 
-## 📊 GitHub Statistics (Pro Layout)
+## Projects
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Dikshant-Neupane\&show_icons=true\&theme=radical)
+* **Project 1**
+  Brief description of the problem this project solves and the technologies used.
+  Repository: [https://github.com/Dikshant-Neupane/project-name](https://github.com/Dikshant-Neupane/project-name)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Dikshant-Neupane\&theme=radical)
+* **Project 2**
+  Brief description of the problem this project solves and the technologies used.
+  Repository: [https://github.com/Dikshant-Neupane/project-name](https://github.com/Dikshant-Neupane/project-name)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Dikshant-Neupane\&layout=compact\&theme=radical)
-
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=Dikshant-Neupane\&theme=dracula)
-
----
-
-## 📫 Contact
-
-📧 Email: [dikshantneupane690@gmail.com](mailto:your.email@gmail.com)
-💼 LinkedIn: [https://www.linkedin.com/in/dikshant-neupane-a64b09326/](https://linkedin.com/in/your-profile)
+(Add your real projects with meaningful descriptions)
 
 ---
 
-⭐ *Feel free to explore my repositories and connect with me!*
+## GitHub Statistics
+
+---
+
+## Contact
+
+Email: [dikshantneupane@gmail.com](mailto:dikshantneupane@gmail.com)  
+
+LinkedIn: [https://linkedin.com/in/dikshant-neupane](https://linkedin.com/in/dikshant-neupane)
+
+---
+
+Thank you for visiting my profile.

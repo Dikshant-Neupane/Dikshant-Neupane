@@ -7,7 +7,7 @@ BSc CSIT Student
 ## About Me
 
 I am currently pursuing my Bachelor's degree in **BSc CSIT** from Tribhuvan University.
-I am passionate about software development and continuously improving my technical skills through hands-on projects.
+I am passionate about learning ai and ml and continuously improving my technical skills through hands-on projects.
 My primary interests include building efficient, scalable, and well-structured applications.
 
 ---

@@ -7,7 +7,7 @@ BSc CSIT Student
 ## About Me
 
 I am currently pursuing my Bachelor's degree in **BSc CSIT** from Tribhuvan University.  
-I am passionate about learning **AI and Machine Learning** and continuously improving my technical skills through hands-on projects.  
+I am passionate about learning AI and ML and continuously improving my technical skills through hands-on projects.  
 My primary interests include building efficient, scalable, and well-structured applications.
 
 ---
@@ -15,30 +15,17 @@ My primary interests include building efficient, scalable, and well-structured a
 ## Skills
 
 **Programming Languages**  
-C++ | Python | JavaScript  
+Python | C++ | JavaScript
 
 **Tools and Technologies**  
-HTML | CSS | Git | GitHub | VS Code  
+HTML | CSS | Git | GitHub | VS Code
 
 ---
 
 ## Projects
 
-- **Latest Work**  
-  My most recent public repositories are automatically shown here:  
-
-  https://github.com/Dikshant-Neupane?tab=repositories  
-
-- **Highlighted Projects**  
-  (Manually add your best projects)
-
-  - Project Name  
-    Short description  
-    Repository: https://github.com/Dikshant-Neupane/project-name  
-
-  - Project Name  
-    Short description  
-    Repository: https://github.com/Dikshant-Neupane/project-name  
+Check out my latest public repositories here:  
+👉 https://github.com/Dikshant-Neupane?tab=repositories
 
 ---
 
@@ -46,7 +33,7 @@ HTML | CSS | Git | GitHub | VS Code
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Dikshant-Neupane&show_icons=true&theme=radical)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Dikshant-Neupane&theme=radical)
+![GitHub Streak](https://streak-stats.demolab.com?user=Dikshant-Neupane&theme=radical)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Dikshant-Neupane&layout=compact&theme=radical)
 
@@ -57,8 +44,7 @@ HTML | CSS | Git | GitHub | VS Code
 ## Contact
 
 Email: [dikshantneupane@gmail.com](mailto:dikshantneupane@gmail.com)  
-
-LinkedIn: https://www.linkedin.com/in/dikshant-neupane-a64b09326/  
+LinkedIn: https://www.linkedin.com/in/dikshant-neupane-a64b09326/
 
 ---
 

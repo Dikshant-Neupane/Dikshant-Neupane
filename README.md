@@ -1,4 +1,4 @@
-# 👋 Dikshant Neupane
+# 👋 Hi, I'm Dikshant Neupane
 
 🎓 **BSc CSIT Student | Aspiring AI & ML Engineer**
 
@@ -7,20 +7,20 @@
 ## 👨‍💻 About Me
 
 I am currently pursuing my Bachelor's degree in **BSc CSIT** from **Tribhuvan University**.  
-I am passionate about **Artificial Intelligence and Machine Learning** and enjoy learning by building hands-on projects.
+I’m passionate about **Artificial Intelligence and Machine Learning** and enjoy building hands-on projects to strengthen my skills.
 
-I aim to create **efficient, scalable, and well-structured applications** while continuously improving my problem-solving and engineering skills.
+My goal is to develop **efficient, scalable, and well-structured applications** while continuously improving my problem-solving and engineering mindset.
 
 ---
 
 ## 🛠️ Skills
 
-### Programming Languages
+### 💻 Programming Languages
 - Python  
 - C++  
 - JavaScript  
 
-### Tools & Technologies
+### ⚙️ Tools & Technologies
 - HTML  
 - CSS  
 - Git & GitHub  
@@ -30,28 +30,32 @@ I aim to create **efficient, scalable, and well-structured applications** while 
 
 ## 📂 Projects
 
-Check out my latest public repositories here:  
-👉 **https://github.com/Dikshant-Neupane?tab=repositories**
+👉 Explore my repositories here:  
+🔗 **https://github.com/Dikshant-Neupane?tab=repositories**
 
 ---
 
 ## 📊 GitHub Statistics
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Dikshant-Neupane&show_icons=true&theme=radical)
+<!-- Main GitHub stats -->
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Dikshant-Neupane&show_icons=true&theme=github_dark&hide_border=true)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=Dikshant-Neupane&theme=radical&cache_seconds=86400)
+<!-- Fixed & optimized streak stats -->
+![GitHub Streak](https://streak-stats.demolab.com?user=Dikshant-Neupane&theme=github-dark&hide_border=true&cache_seconds=21600)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Dikshant-Neupane&layout=compact&theme=radical)
+<!-- Top languages -->
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Dikshant-Neupane&layout=compact&theme=github_dark&hide_border=true)
 
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=Dikshant-Neupane&theme=dracula)
+<!-- Contribution activity graph -->
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=Dikshant-Neupane&theme=github-dark&hide_border=true)
 
 ---
 
-## 📬 Contact
+## 📬 Contact Me
 
 📧 **Email:** [dikshantneupane@gmail.com](mailto:dikshantneupane@gmail.com)  
 🔗 **LinkedIn:** https://www.linkedin.com/in/dikshant-neupane-a64b09326/
 
 ---
 
-⭐ *Thank you for visiting my GitHub profile. Feel free to explore my work and connect with me!*
+⭐ *Thanks for visiting my GitHub profile! Feel free to explore my projects and connect with me.*

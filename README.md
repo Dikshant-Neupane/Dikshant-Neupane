@@ -1,47 +1,46 @@
-# 👋 Hi, I'm Dikshant Neupane
-
-🎓 **BSc CSIT Student | Aspiring AI & ML Engineer**
+#  Hi, I'm Dikshant Neupane
+**BSc CSIT Student | Aspiring AI & ML Engineer**
 
 ---
 
-## 👨‍💻 About Me
+##  About Me
 
 I am currently pursuing my Bachelor's degree in **BSc CSIT** from **Tribhuvan University**.  
-I’m passionate about **Artificial Intelligence and Machine Learning** and enjoy building hands-on projects to strengthen my skills.
+I am passionate about **Artificial Intelligence and Machine Learning** and enjoy building hands-on projects to improve my skills.
 
-My goal is to develop **efficient, scalable, and well-structured applications** while continuously improving my problem-solving and engineering mindset.
-
----
-
-## 🛠️ Skills
-
-### 💻 Programming Languages
-- Python  
-- C++  
-- JavaScript  
-
-### ⚙️ Tools & Technologies
-- HTML  
-- CSS  
-- Git & GitHub  
-- VS Code  
+I focus on creating **efficient, scalable, and well-structured applications** while continuously learning modern technologies.
 
 ---
 
-## 📂 Projects
+##  Skills
 
-👉 Explore my repositories here:  
-🔗 **https://github.com/Dikshant-Neupane?tab=repositories**
+###  Programming Languages
+- Python
+- C++
+- JavaScript
+
+###  Tools & Technologies
+- HTML
+- CSS
+- Git & GitHub
+- VS Code
+
+---
+
+##  Projects
+
+🔗 Explore my repositories:  
+👉 https://github.com/Dikshant-Neupane?tab=repositories
 
 ---
 
 ## 📊 GitHub Statistics
 
-<!-- Main GitHub stats -->
+<!-- GitHub main stats (STABLE) -->
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Dikshant-Neupane&show_icons=true&theme=github_dark&hide_border=true)
 
-<!-- Fixed & optimized streak stats -->
-![GitHub Streak](https://streak-stats.demolab.com?user=Dikshant-Neupane&theme=github-dark&hide_border=true&cache_seconds=21600)
+<!-- GitHub streak (MOST STABLE PROVIDER) -->
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Dikshant-Neupane&theme=github-dark&hide_border=true)
 
 <!-- Top languages -->
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Dikshant-Neupane&layout=compact&theme=github_dark&hide_border=true)
@@ -51,11 +50,11 @@ My goal is to develop **efficient, scalable, and well-structured applications** 
 
 ---
 
-## 📬 Contact Me
+## 📬 Contact
 
-📧 **Email:** [dikshantneupane@gmail.com](mailto:dikshantneupane@gmail.com)  
-🔗 **LinkedIn:** https://www.linkedin.com/in/dikshant-neupane-a64b09326/
+📧 Email: [dikshantneupane@gmail.com](mailto:dikshantneupane@gmail.com)  
+🔗 LinkedIn: https://www.linkedin.com/in/dikshant-neupane-a64b09326/
 
 ---
 
-⭐ *Thanks for visiting my GitHub profile! Feel free to explore my projects and connect with me.*
+⭐ Thanks for visiting my GitHub profile!

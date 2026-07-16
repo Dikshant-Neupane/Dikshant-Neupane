@@ -1,0 +1,296 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="1180" height="610">
+  <defs>
+    <radialGradient id="bgGlow1" cx="20%" cy="30%" r="50%" fx="20%" fy="30%">
+      <stop offset="0%" stop-color="#90C8AC" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#F7F6EE" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="bgGlow2" cx="80%" cy="70%" r="50%" fx="80%" fy="70%">
+      <stop offset="0%" stop-color="#4BA58D" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#F7F6EE" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="bgGlow3" cx="50%" cy="90%" r="40%" fx="50%" fy="90%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#F7F6EE" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4BA58D">
+        <animate attributeName="stop-color" values="#4BA58D;#90C8AC;#10B981;#4BA58D" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#90C8AC">
+        <animate attributeName="stop-color" values="#90C8AC;#10B981;#4BA58D;#90C8AC" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#10B981">
+        <animate attributeName="stop-color" values="#10B981;#4BA58D;#90C8AC;#10B981" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="asciiGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3D8C76">
+        <animate attributeName="stop-color" values="#3D8C76;#4BA58D;#3D8C76" dur="5s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#4BA58D">
+        <animate attributeName="stop-color" values="#4BA58D;#3D8C76;#4BA58D" dur="5s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch" />
+      <feColorMatrix type="matrix" values="1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 0.05 0" />
+    </filter>
+
+    <filter id="glass">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.5 0" />
+      <feComposite in="SourceGraphic" operator="over" />
+    </filter>
+
+    <clipPath id="terminalClip">
+      <rect x="0" y="0" width="680" height="530" rx="16" />
+    </clipPath>
+  </defs>
+
+  <rect width="1180" height="610" rx="24" fill="#F7F6EE" />
+  
+  <g opacity="0.8">
+    <circle cx="236" cy="183" r="400" fill="url(#bgGlow1)">
+      <animate attributeName="cx" values="236; 300; 150; 236" dur="20s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="183; 250; 100; 183" dur="25s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="944" cy="427" r="450" fill="url(#bgGlow2)">
+      <animate attributeName="cx" values="944; 850; 1000; 944" dur="22s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="427; 350; 500; 427" dur="18s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="590" cy="549" r="350" fill="url(#bgGlow3)">
+      <animate attributeName="cx" values="590; 500; 680; 590" dur="24s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="549; 600; 450; 549" dur="19s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <rect width="1180" height="610" rx="24" style="pointer-events:none;" filter="url(#noise)" opacity="0.5" />
+
+  <line x1="0" y1="0" x2="1180" y2="0" stroke="#DDE8D8" stroke-width="2">
+    <animate attributeName="y1" values="0; 610; 0" dur="8s" repeatCount="indefinite" />
+    <animate attributeName="y2" values="0; 610; 0" dur="8s" repeatCount="indefinite" />
+  </line>
+
+  <rect width="1178" height="608" x="1" y="1" rx="23" fill="none" stroke="#DDE8D8" stroke-width="2" />
+  <rect width="1178" height="608" x="1" y="1" rx="23" fill="none" stroke="url(#accentGradient)" stroke-width="2" opacity="0.3" stroke-dasharray="200 1000" stroke-dashoffset="0">
+    <animate attributeName="stroke-dashoffset" values="0; -1200" dur="10s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- LEFT SIDE -->
+  <g transform="translate(40, 40)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-10; 0,0" dur="6s" repeatCount="indefinite" />
+      
+      <text font-family="monospace" font-size="8" fill="url(#asciiGradient)" filter="url(#softGlow)" font-weight="bold" xml:space="preserve">
+        <tspan x="10" y="60" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+        <tspan x="10" y="75" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+        <tspan x="10" y="90" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠟⠋⠏⠩⠉⠉⠉⠉⠉⡛⠩⠯⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+        <tspan x="10" y="105" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⣒⠒⠐⠘⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠚⠟⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+        <tspan x="10" y="120" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠃⠈⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+        <tspan x="10" y="135" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+        <tspan x="10" y="150" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣻⠀⠀⠀⠀⠀⡴⢂⠀⠀⢠⣤⣦⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+        <tspan x="10" y="165" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⡃⠀⠀⢰⣤⣈⠑⢁⣀⣴⣿⠿⠛⠋⠁⠀⠀⠀⠀⠀⠆⡀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+        <tspan x="10" y="180" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠝⠋⠉⠀⠀⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠁⠂⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+        <tspan x="10" y="195" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣸⡆⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+        <tspan x="10" y="210" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⢀⣾⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣧⠀⠀⢘⠀⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+        <tspan x="10" y="225" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⢀⣾⠿⠟⠂⠦⠀⠀⠀⠀⠀⠀⠀⠀⠙⣿⠏⠀⢰⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+        <tspan x="10" y="240" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣯⠀⠈⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+        <tspan x="10" y="255" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⡀⠚⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+        <tspan x="10" y="270" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣷⡄⠀⣠⡴⠴⠒⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+        <tspan x="10" y="285" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠛⠋⡃⢰⣿⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+        <tspan x="10" y="300" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⠀⠁⠈⠻⠟⠋⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+        <tspan x="10" y="315" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+        <tspan x="10" y="330" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣿⠃⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+        <tspan x="10" y="345" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⡿⠁⠀⠀⠙⠛⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+        <tspan x="10" y="360" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠛⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⡿⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+        <tspan x="10" y="375" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠿⢝⢽⣿⣿⣿⡁⠘⣿⣿⣿⣦⣀⠀⠀⢀⣤⣾⣿⣿⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠒⠉⠝⠻⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+        <tspan x="10" y="390" xml:space="preserve">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⡿⢿⡟⢿⣿⠍⠁⠀⠄⠉⢸⣿⣿⣿⠀⠀⢘⣿⣿⣿⣿⣷⣾⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠙⠻⠿⠿⠿⣿⣿⣿</tspan>
+        <tspan x="10" y="405" xml:space="preserve">⣿⣿⣿⣿⣿⢋⣿⣿⠛⠟⠃⠀⠀⠤⢲⠟⢁⠀⠀⠀⠀⠀⡾⠩⠫⠇⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⣿</tspan>
+        <tspan x="10" y="420" xml:space="preserve">⣿⣿⣿⣿⠏⠘⢩⠇⠀⠀⠀⠀⠀⠀⠁⢠⠄⠀⠀⠀⠄⠀⠁⠀⠠⡂⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿</tspan>
+        <tspan x="10" y="435" xml:space="preserve">⣿⣿⠃⠻⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠀⢰⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹</tspan>
+        <tspan x="10" y="450" xml:space="preserve">⣿⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⡝⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+        <tspan x="10" y="465" xml:space="preserve">⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+        <tspan x="10" y="480" xml:space="preserve">⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣻⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+        <tspan x="10" y="495" xml:space="preserve">⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣏⣿⣿⣿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+        <tspan x="10" y="510" xml:space="preserve">⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣽⣿⣿⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+      </text>
+      
+      <rect x="0" y="40" width="450" height="520" fill="#F7F6EE">
+        <animate attributeName="height" values="520; 0" dur="2.5s" fill="freeze" />
+      </rect>
+    </g>
+    <text x="250" y="540" font-family="monospace" font-size="16" fill="#10B981" filter="url(#glow)">_
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+    </text>
+  </g>
+
+  <!-- RIGHT SIDE -->
+  <g transform="translate(460, 40)">
+    <rect width="680" height="530" rx="16" fill="#FDFDFB" opacity="0.8" filter="url(#glass)"/>
+    <rect width="680" height="530" rx="16" fill="none" stroke="#DDE8D8" stroke-width="1.5" />
+    
+    <path d="M 0 16 C 0 7.163 7.163 0 16 0 L 664 0 C 672.837 0 680 7.163 680 16 L 680 40 L 0 40 Z" fill="#EEF4E7" opacity="0.8" />
+    <circle cx="24" cy="20" r="6" fill="#EF4444" />
+    <circle cx="44" cy="20" r="6" fill="#F59E0B" />
+    <circle cx="64" cy="20" r="6" fill="#10B981" />
+    <text x="340" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#55666A" text-anchor="middle">dikshant@ubuntu:~</text>
+    <line x1="0" y1="40" x2="680" y2="40" stroke="#DDE8D8" stroke-width="1" />
+
+    <g clip-path="url(#terminalClip)">
+      <g transform="translate(40, 85)">
+        <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#14353C">
+          Hi I'm Dikshant Neupane
+          <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" />
+        </text>
+
+        <g transform="translate(0, 40)">
+          <text font-family="monospace" font-size="18" fill="url(#accentGradient)" font-weight="600">
+            > 
+            <tspan opacity="0"><animate attributeName="opacity" values="1" begin="0.5s" dur="4.5s" fill="freeze" /></tspan>
+            <tspan opacity="0">D<animate attributeName="opacity" values="0;1" begin="0.5s" dur="0.05s" fill="freeze"/></tspan>
+            <tspan opacity="0">A<animate attributeName="opacity" values="0;1" begin="0.6s" dur="0.05s" fill="freeze"/></tspan>
+            <tspan opacity="0">T<animate attributeName="opacity" values="0;1" begin="0.7s" dur="0.05s" fill="freeze"/></tspan>
+            <tspan opacity="0">A<animate attributeName="opacity" values="0;1" begin="0.8s" dur="0.05s" fill="freeze"/></tspan>
+            <tspan opacity="0"> <animate attributeName="opacity" values="0;1" begin="0.9s" dur="0.05s" fill="freeze"/></tspan>
+            <tspan opacity="0">S<animate attributeName="opacity" values="0;1" begin="1.0s" dur="0.05s" fill="freeze"/></tspan>
+            <tspan opacity="0">C<animate attributeName="opacity" values="0;1" begin="1.1s" dur="0.05s" fill="freeze"/></tspan>
+            <tspan opacity="0">I<animate attributeName="opacity" values="0;1" begin="1.2s" dur="0.05s" fill="freeze"/></tspan>
+            <tspan opacity="0">E<animate attributeName="opacity" values="0;1" begin="1.3s" dur="0.05s" fill="freeze"/></tspan>
+            <tspan opacity="0">N<animate attributeName="opacity" values="0;1" begin="1.4s" dur="0.05s" fill="freeze"/></tspan>
+            <tspan opacity="0">T<animate attributeName="opacity" values="0;1" begin="1.5s" dur="0.05s" fill="freeze"/></tspan>
+            <tspan opacity="0">I<animate attributeName="opacity" values="0;1" begin="1.6s" dur="0.05s" fill="freeze"/></tspan>
+            <tspan opacity="0">S<animate attributeName="opacity" values="0;1" begin="1.7s" dur="0.05s" fill="freeze"/></tspan>
+            <tspan opacity="0">T<animate attributeName="opacity" values="0;1" begin="1.8s" dur="0.05s" fill="freeze"/></tspan>
+            <tspan fill="#10B981" filter="url(#glow)">_
+              <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
+            </tspan>
+          </text>
+        </g>
+
+        <g transform="translate(0, 85)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15">
+          <g opacity="0">
+            <animate attributeName="opacity" values="0;1" begin="2.8s" dur="0.5s" fill="freeze" />
+            <rect width="24" height="24" rx="6" fill="#EEF4E7" />
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="#55666A" transform="scale(0.8) translate(3,3)"/>
+            <text x="36" y="16" fill="#55666A">Location:</text>
+            <text x="110" y="16" fill="#14353C" font-weight="500">Kathmandu, Nepal</text>
+          </g>
+
+          <g transform="translate(0, 36)" opacity="0">
+            <animate attributeName="opacity" values="0;1" begin="3.1s" dur="0.5s" fill="freeze" />
+            <rect width="24" height="24" rx="6" fill="#EEF4E7" />
+            <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z" fill="#55666A" transform="scale(0.8) translate(3,3)"/>
+            <text x="36" y="16" fill="#55666A">Education:</text>
+            <text x="115" y="16" fill="#14353C" font-weight="500">BSc CSIT, Tribhuvan University</text>
+          </g>
+
+          <g transform="translate(0, 72)" opacity="0">
+            <animate attributeName="opacity" values="0;1" begin="3.4s" dur="0.5s" fill="freeze" />
+            <rect width="24" height="24" rx="6" fill="#EEF4E7" />
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" fill="#55666A" transform="scale(0.8) translate(3,3)"/>
+            <text x="36" y="16" fill="#55666A">Current Project:</text>
+            <text x="145" y="16" fill="#14353C" font-weight="500">GitHub Profile Art Generator</text>
+          </g>
+
+          <g transform="translate(0, 108)" opacity="0">
+            <animate attributeName="opacity" values="0;1" begin="3.7s" dur="0.5s" fill="freeze" />
+            <rect width="24" height="24" rx="6" fill="#EEF4E7" />
+            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="#55666A" transform="scale(0.8) translate(3,3)"/>
+            <text x="36" y="16" fill="#55666A">Email:</text>
+            <text x="85" y="16" fill="#14353C" font-weight="500">dikshantneupane@gmail.com</text>
+          </g>
+        </g>
+
+        <g transform="translate(0, 245)" opacity="0">
+          <animate attributeName="opacity" values="0;1" begin="4.2s" dur="0.5s" fill="freeze" />
+          <text font-family="monospace" font-size="14" fill="#55666A" letter-spacing="1">/// TECH_STACK</text>
+          
+          <g transform="translate(0, 20)">
+            <style>
+              .skill-pill { transition: all 0.3s ease; transform-origin: center; cursor: pointer; }
+              .skill-pill:hover { transform: scale(1.05); filter: brightness(1.1) drop-shadow(0 0 8px #4BA58D); }
+              .social-icon { transition: all 0.3s ease; cursor: pointer; }
+              .social-icon:hover { transform: scale(1.1) translateY(-2px); filter: drop-shadow(0 0 6px #90C8AC); }
+            </style>
+            
+            <g transform="translate(0, 0)" class="skill-pill">
+              <rect width="80" height="32" rx="16" fill="#EEF4E7" stroke="#90C8AC" stroke-width="1" />
+              <text x="40" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#4BA58D" text-anchor="middle" font-weight="600">Python</text>
+            </g>
+            <g transform="translate(90, 0)" class="skill-pill">
+              <rect width="105" height="32" rx="16" fill="#EEF4E7" stroke="#90C8AC" stroke-width="1" />
+              <text x="52.5" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#4BA58D" text-anchor="middle" font-weight="600">JavaScript</text>
+            </g>
+            <g transform="translate(205, 0)" class="skill-pill">
+              <rect width="60" height="32" rx="16" fill="#EEF4E7" stroke="#90C8AC" stroke-width="1" />
+              <text x="30" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#4BA58D" text-anchor="middle" font-weight="600">C++</text>
+            </g>
+            <g transform="translate(275, 0)" class="skill-pill">
+              <rect width="90" height="32" rx="16" fill="#EEF4E7" stroke="#90C8AC" stroke-width="1" />
+              <text x="45" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#4BA58D" text-anchor="middle" font-weight="600">Node.js</text>
+            </g>
+            <g transform="translate(375, 0)" class="skill-pill">
+              <rect width="70" height="32" rx="16" fill="#EEF4E7" stroke="#90C8AC" stroke-width="1" />
+              <text x="35" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#4BA58D" text-anchor="middle" font-weight="600">HTML</text>
+            </g>
+            
+            <g transform="translate(0, 42)" class="skill-pill">
+              <rect width="65" height="32" rx="16" fill="#EEF4E7" stroke="#90C8AC" stroke-width="1" />
+              <text x="32.5" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#4BA58D" text-anchor="middle" font-weight="600">CSS</text>
+            </g>
+            <g transform="translate(75, 42)" class="skill-pill">
+              <rect width="65" height="32" rx="16" fill="#EEF4E7" stroke="#90C8AC" stroke-width="1" />
+              <text x="32.5" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#4BA58D" text-anchor="middle" font-weight="600">Git</text>
+            </g>
+            <g transform="translate(150, 42)" class="skill-pill">
+              <rect width="85" height="32" rx="16" fill="#EEF4E7" stroke="#90C8AC" stroke-width="1" />
+              <text x="42.5" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#4BA58D" text-anchor="middle" font-weight="600">GitHub</text>
+            </g>
+            <g transform="translate(245, 42)" class="skill-pill">
+              <rect width="95" height="32" rx="16" fill="#EEF4E7" stroke="#90C8AC" stroke-width="1" />
+              <text x="47.5" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#4BA58D" text-anchor="middle" font-weight="600">VS Code</text>
+            </g>
+            <g transform="translate(350, 42)" class="skill-pill">
+              <rect width="75" height="32" rx="16" fill="#EEF4E7" stroke="#90C8AC" stroke-width="1" />
+              <text x="37.5" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#4BA58D" text-anchor="middle" font-weight="600">Linux</text>
+            </g>
+          </g>
+        </g>
+
+        <g transform="translate(0, 375)" opacity="0">
+          <animate attributeName="opacity" values="0;1" begin="4.7s" dur="0.5s" fill="freeze" />
+          <line x1="0" y1="0" x2="600" y2="0" stroke="#DDE8D8" stroke-width="1" />
+          
+          <g transform="translate(0, 20)">
+            <a href="https://github.com/Dikshant-Neupane" target="_blank" class="social-icon">
+              <circle cx="20" cy="20" r="20" fill="#EEF4E7" stroke="#DDE8D8" stroke-width="1"/>
+              <path d="M20 9c-6.08 0-11 4.92-11 11 0 4.86 3.15 8.98 7.53 10.44.55.1.75-.24.75-.53v-2.03c-3.06.67-3.71-1.3-3.71-1.3-.5-1.27-1.22-1.61-1.22-1.61-1-.68.08-.67.08-.67 1.1.08 1.68 1.13 1.68 1.13.98 1.68 2.57 1.2 3.2.92.1-.71.38-1.2.7-1.48-2.44-.28-5.01-1.22-5.01-5.44 0-1.2.43-2.18 1.13-2.95-.11-.28-.49-1.4.11-2.91 0 0 .93-.3 3.03 1.13.88-.25 1.83-.37 2.77-.38.94 0 1.89.13 2.78.38 2.1-1.42 3.03-1.13 3.03-1.13.6 1.51.22 2.63.11 2.91.7.77 1.13 1.75 1.13 2.95 0 4.23-2.58 5.15-5.03 5.43.39.34.74 1.01.74 2.03v3.01c0 .29.2.64.76.53C27.85 28.98 31 24.86 31 20c0-6.08-4.92-11-11-11z" fill="#14353C"/>
+            </a>
+            
+            <a href="https://www.linkedin.com/in/dikshant-neupane-a64b09326/" target="_blank" class="social-icon" transform="translate(50, 0)">
+              <circle cx="20" cy="20" r="20" fill="#EEF4E7" stroke="#DDE8D8" stroke-width="1"/>
+              <path d="M12.98 13.99h3.42v10.96h-3.42V13.99zm1.71-4.83c1.1 0 1.99.89 1.99 1.99s-.89 1.99-1.99 1.99-1.99-.89-1.99-1.99.89-1.99 1.99-1.99zm12.31 9.42c0-3.32-1.78-4.87-4.14-4.87-1.9 0-2.75 1.05-3.23 1.78v-1.52h-3.42v10.96h3.42v-6.11c0-1.61.3-3.17 2.3-3.17 1.97 0 2.01 1.85 2.01 3.27v6.02h3.42v-6.36h-.36z" fill="#14353C"/>
+            </a>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

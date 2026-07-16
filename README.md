@@ -12,7 +12,7 @@
 
 Building software, exploring AI, and shipping useful products with a focus on clarity, utility, and measurable impact.
 
-<a href="mailto:dikshantneupane@gmail.com">Email</a> • <a href="https://www.linkedin.com/in/dikshant-neupane-a64b09326/">LinkedIn</a> • <a href="https://github.com/Dikshant-Neupane">GitHub</a>
+<a href="mailto:dikshantneupane690@gmail.com">Email</a> • <a href="https://www.linkedin.com/in/dikshant-neupane-a64b09326/">LinkedIn</a> • <a href="https://github.com/Dikshant-Neupane">GitHub</a>
 
 </div>
 
@@ -102,6 +102,6 @@ Web applications built with an emphasis on maintainability, usability, and scala
 
 ## Connect
 
-- Email: [dikshantneupane@gmail.com](mailto:dikshantneupane@gmail.com)
+- Email: [dikshantneupane690@gmail.com](mailto:dikshantneupane690@gmail.com)
 - LinkedIn: <https://www.linkedin.com/in/dikshant-neupane-a64b09326/>
 - GitHub: <https://github.com/Dikshant-Neupane>

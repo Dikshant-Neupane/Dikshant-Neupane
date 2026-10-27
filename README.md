@@ -3,7 +3,6 @@
 # Dikshant Neupane
 
 <p align="center">
-  <img src="./assets/light.svg" alt="Dikshant Neupane profile banner" />
 </p>
 
 Aspiring data scientist. I turn raw data into models, analysis, and decisions.

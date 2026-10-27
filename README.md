@@ -10,61 +10,69 @@
   </picture>
 </p>
 
-Building software, exploring AI, and shipping useful products with a focus on clarity, utility, and measurable impact.
+Aspiring data scientist. I turn raw data into models, analysis, and decisions.
 
-<a href="mailto:dikshantneupane690@gmail.com">Email</a> • <a href="https://www.linkedin.com/in/dikshant-neupane-a64b09326/">LinkedIn</a> • <a href="https://github.com/Dikshant-Neupane">GitHub</a>
+<a href="mailto:dikshantneupane690@gmail.com">Email</a> • <a href="https://www.linkedin.com/in/dikshant-neupane-a64b09326/">LinkedIn</a> • <a href="https://www.kaggle.com/nforneura">Kaggle</a> • <a href="https://github.com/Dikshant-Neupane">GitHub</a>
 
 </div>
 
 ---
 
-## Current Project
+## Currently
 
-Refining my GitHub profile art generator, which turns a photo into animated ASCII and Braille SVG banners.
+- Building machine learning and analytics projects in Python, from data collection and cleaning to modeling and reporting.
+- Contributing to open source across Python, TypeScript, and Rust projects.
 
 ## About
 
-I am a BSc CSIT student at Tribhuvan University with interests in software engineering, artificial intelligence, machine learning, and data analytics.
+I am a BSc CSIT student at Samriddhi College, Tribhuvan University, aiming for a career in data science. My interests are machine learning, data analytics, and natural language processing, backed by Python, statistics, and SQL.
 
-## Currently Building
+## Featured Data Projects
 
-- Digital Brain
-- Civic Complaint Platform
-- AI-powered productivity tools
-- Data analytics projects
-- Full-stack web applications
+### [CricNepal](https://github.com/Dikshant-Neupane/CricNepal)
 
-## Technologies
+Nepal cricket data and analytics, actively maintained.
+
+**Focus:** Sports Analytics, Data Collection, Reporting
+
+### [House Price Prediction](https://github.com/Dikshant-Neupane/House_price_prediction)
+
+Predicting house prices with machine learning.
+
+**Focus:** Regression, scikit-learn, Feature Engineering
+
+### [Election 2082](https://github.com/Dikshant-Neupane/Election-2082)
+
+Analysis of Nepal's 2082 election data.
+
+**Focus:** Civic Data, Analysis, Visualization
+
+### [Jana Sunuwaai](https://github.com/Dikshant-Neupane/Jana_Sunuwaai)
+
+Natural language processing project.
+
+**Focus:** NLP, Machine Learning
+
+More data work: [First_DS](https://github.com/Dikshant-Neupane/First_DS), my first data science project, and [Cric_Data](https://github.com/Dikshant-Neupane/Cric_Data), cricket datasets.
+
+## Data Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,cpp,nodejs,html,css,git,github,vscode" alt="Tech stack" />
+  <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/SciPy-8CAAE6?logo=scipy&logoColor=white" alt="SciPy" />
+  <img src="https://img.shields.io/badge/SQL-4479A1" alt="SQL" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch" />
 </p>
 
-## Featured Work
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,git,github,vscode" alt="Tools" />
+</p>
 
-### Digital Brain
+## Open Source
 
-An AI-powered personal knowledge system focused on memory, organization, and productivity.
-
-**Focus:** AI, Knowledge Management, Productivity
-
-### Civic Complaint Platform
-
-A platform designed to improve communication between citizens and local governments through structured issue reporting and tracking.
-
-**Focus:** Civic Tech, Public Services, Transparency
-
-### Data Analytics Projects
-
-Projects involving data processing, visualization, reporting, and analytical insights.
-
-**Focus:** Analytics, Visualization, Decision Support
-
-### Full-Stack Applications
-
-Web applications built with an emphasis on maintainability, usability, and scalable architecture.
-
-**Focus:** Backend Systems, APIs, User Experience
+I contribute bug fixes, tests, and documentation to open source repositories, mostly in Python, with recent work in TypeScript and Rust.
 
 ## Leadership & Activities
 
@@ -104,4 +112,5 @@ Web applications built with an emphasis on maintainability, usability, and scala
 
 - Email: [dikshantneupane690@gmail.com](mailto:dikshantneupane690@gmail.com)
 - LinkedIn: <https://www.linkedin.com/in/dikshant-neupane-a64b09326/>
+- Kaggle: <https://www.kaggle.com/nforneura>
 - GitHub: <https://github.com/Dikshant-Neupane>

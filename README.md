@@ -6,8 +6,6 @@ Aspiring data scientist. I turn raw data into models, analysis, and decisions.
 
 <a href="mailto:dikshantneupane690@gmail.com">Email</a> • <a href="https://www.linkedin.com/in/dikshant-neupane-a64b09326/">LinkedIn</a> • <a href="https://www.kaggle.com/nforneura">Kaggle</a> • <a href="https://github.com/Dikshant-Neupane">GitHub</a>
 
-<img src="https://komarev.com/ghpvc/?username=Dikshant-Neupane" alt="Profile views" />
-
 </div>
 
 ---

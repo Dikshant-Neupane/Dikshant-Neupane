@@ -3,11 +3,7 @@
 # Dikshant Neupane
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg" />
-    <img src="./assets/dark.svg" alt="Dikshant Neupane profile banner" />
-  </picture>
+  <img src="./assets/light.svg" alt="Dikshant Neupane profile banner" />
 </p>
 
 Aspiring data scientist. I turn raw data into models, analysis, and decisions.
@@ -57,14 +53,7 @@ More data work: [First_DS](https://github.com/Dikshant-Neupane/First_DS), my fir
 
 ## Data Stack
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white" alt="scikit-learn" />
-  <img src="https://img.shields.io/badge/SciPy-8CAAE6?logo=scipy&logoColor=white" alt="SciPy" />
-  <img src="https://img.shields.io/badge/SQL-4479A1" alt="SQL" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch" />
-</p>
+**Python · Pandas · NumPy · scikit-learn · SciPy · SQL · PyTorch**
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,git,github,vscode" alt="Tools" />
@@ -90,12 +79,6 @@ I contribute bug fixes, tests, and documentation to open source repositories, mo
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dikshant-Neupane&theme=github-dark&hide_border=true" alt="GitHub streak" />
-</p>
-
-## Contribution Activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Dikshant-Neupane&theme=github-dark&hide_border=true" alt="Contribution graph" />
 </p>
 
 ## Philosophy

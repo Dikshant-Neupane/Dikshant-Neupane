@@ -93,3 +93,9 @@ I contribute bug fixes, tests, and documentation to open source repositories, mo
 - LinkedIn: <https://www.linkedin.com/in/dikshant-neupane-a64b09326/>
 - Kaggle: <https://www.kaggle.com/nforneura>
 - GitHub: <https://github.com/Dikshant-Neupane>
+
+## GitHub Activity
+
+![](./profile-3d-contrib/profile-green-animate.svg)
+
+![](https://github-readme-activity-graph.vercel.app/graph?username=Dikshant-Neupane&bg_color=0d1117&color=ffc501&line=fe9600&point=ffee4a&area=true&area_color=ffc501&hide_border=true)

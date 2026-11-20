@@ -1,6 +1,8 @@
+<h1 align="center">Dikshant Neupane</h1>
+
 <p align="center">
   <a href="https://github.com/Dikshant-Neupane">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Dikshant+Neupane;Aspiring+Data+Scientist;Open+Source+Contributor;Python+%C2%B7+Security+%C2%B7+ML&font=Fira+Code&center=true&width=540&height=45&size=22&pause=1000" alt="Dikshant Neupane" />
+    <img src="https://readme-typing-svg.demolab.com/?lines=Aspiring+Data+Scientist;Open+Source+Contributor;Python+%C2%B7+Security+%C2%B7+ML&font=Fira+Code&center=true&width=540&height=45&size=22&pause=1000" alt="Aspiring Data Scientist, Open Source Contributor, Python, Security, ML" />
   </a>
 </p>
 
@@ -14,11 +16,11 @@
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/dikshant-neupane-a64b09326/"><img width="32px" alt="LinkedIn" title="LinkedIn" src="https://skillicons.dev/icons?i=linkedin" /></a>
   &nbsp;&nbsp;
-  <a href="https://www.kaggle.com/nforneura"><img width="32px" alt="Kaggle" title="Kaggle" src="https://skillicons.dev/icons?i=kaggle" /></a>
+  <a href="https://www.kaggle.com/nforneura"><img width="32px" alt="Kaggle" title="Kaggle" src="https://cdn.simpleicons.org/kaggle/white" /></a>
   &nbsp;&nbsp;
-  <a href="https://x.com/DikshantNeup"><img width="32px" alt="X" title="X" src="https://skillicons.dev/icons?i=twitter" /></a>
+  <a href="https://x.com/DikshantNeup"><img width="32px" alt="X" title="X" src="https://cdn.simpleicons.org/x/white" /></a>
   &nbsp;&nbsp;
-  <a href="https://github.com/Dikshant-Neupane"><img width="32px" alt="GitHub" title="GitHub" src="https://skillicons.dev/icons?i=github" /></a>
+  <a href="https://github.com/Dikshant-Neupane"><img width="32px" alt="GitHub" title="GitHub" src="https://cdn.simpleicons.org/github/white" /></a>
 </p>
 
 ---
@@ -52,13 +54,9 @@
 Recent merged work includes StreamKM++ in [selimfirat/pysad](https://github.com/selimfirat/pysad/pull/612) and the decimal fix in [galaxy-io/filament](https://github.com/galaxy-io/filament/pull/744).
 
 <details>
-<summary><h2>🛠️ My Favourite Tools</h2></summary>
+<summary><h2>My Favourite Tools</h2></summary>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,pandas,numpy,git,github,vscode,linux" alt="Tools" />
-</p>
-
-**Python · Pandas · NumPy · scikit-learn · SciPy · SQL · PyTorch**
+Python · Pandas · NumPy · scikit-learn · SciPy · SQL · PyTorch · Git · VS Code · Linux
 
 </details>
 
